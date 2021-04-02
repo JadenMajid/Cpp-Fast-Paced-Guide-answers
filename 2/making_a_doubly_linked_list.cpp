@@ -1,7 +1,7 @@
 #include <cstdio>
 
 struct Element{
-    Element* next{};
+    Element* next;
     Element* previous; 
     void insert_after(Element* new_element){
         new_element->next = next;
